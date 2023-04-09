@@ -25,8 +25,8 @@
         android:id="@+id/courseNameLabel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Course Name"
-        android:textSize="20dp"
+        android:text="@string/course_name"
+        android:textSize="20sp"
         tools:ignore="TextSizeCheck" />
 
 <!--    Course Name Text Field-->
@@ -37,15 +37,16 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Enter Course Name ..." />
+        android:text="@string/enter_course_name"
+        tools:ignore="LabelFor" />
 
 <!--    Course Code Label-->
     <TextView
         android:id="@+id/courseCodeLabel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Course Code"
-        android:textSize="20dp"/>
+        android:text="@string/course_code"
+        android:textSize="20sp"/>
 
 <!--Course Code Text Field-->
     <EditText
@@ -55,14 +56,14 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Enter Course Code ..." />
+        android:text="@string/enter_course_code" />
 
     <!--    Course Description Label-->
     <TextView
         android:id="@+id/courseDescriptionLabel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Course Description"
+        android:text="@string/course_description"
         android:textSize="20sp"/>
 
     <EditText
@@ -72,17 +73,17 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Enter description" />
+        android:text="@string/enter_description" />
 <!--    Course Assigned professor Name-->
     <TextView
         android:id="@+id/courseProfessorNameLabel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Professor"
-        android:textSize="20dp"/>
+        android:text="@string/professor_label"
+        android:textSize="20sp"/>
 
 
-<!--    Course Assigned Professor textfield-->
+<!--    Course Assigned Professor text-field-->
     <EditText
         android:id="@+id/courseProfessorNameTextField"
         android:layout_width="match_parent"
@@ -90,13 +91,14 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Enter Professor Name ..." />
+        android:text="@string/enter_professor_name"
+        tools:ignore="LabelFor" />
 
 <!--    Add Button-->
     <Button
         android:id="@+id/addCourseButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Add Course" />
+        android:text="@string/add_course" />
 
 </LinearLayout>

@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Cambrain-Course-Seclection-app</string>
+    <string name="add_course_title">Add Course</string>
+    <string name="course_name">Course Name</string>
+    <string name="course_code">Course Code</string>
+    <string name="enter_course_name">Enter Course Name ...</string>
+    <string name="enter_course_code">Enter Course Code ...</string>
+    <string name="course_description">Course Description</string>
+    <string name="enter_professor_name">Enter Professor Name ...</string>
+    <string name="add_course">Add Course</string>
+    <string name="professor_label">Professor</string>
+    <string name="enter_description">Enter description</string>
 </resources>
