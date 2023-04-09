@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Cambrain-Course-Seclection-app</string>
+    <string name="login">Login</string>
+    <string name="login_btn">Login</string>
+    <string name="register_btn">Register</string>
+    <string name="email">Email</string>
 </resources>
