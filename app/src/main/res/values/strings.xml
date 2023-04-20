@@ -6,4 +6,6 @@
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="course_list_label">Course List</string>
+    <string name="edit_btn">Edit</string>
+    <string name="add_course_btn">Add Course</string>
 </resources>
