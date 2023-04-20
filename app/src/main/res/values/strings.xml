@@ -5,4 +5,5 @@
     <string name="register_btn">Register</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
+    <string name="course_list_label">Course List</string>
 </resources>
