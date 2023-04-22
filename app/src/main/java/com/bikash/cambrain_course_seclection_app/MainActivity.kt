@@ -36,7 +36,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this@MainActivity, CourseListActivity::class.java)
             startActivity(intent)
         }
-
+        binding.btnCreateCourse.setOnClickListener{
+            val intent = Intent(this@MainActivity, CreateCourseActivity::class.java)
+            startActivity(intent)
+        }
     }
 
 

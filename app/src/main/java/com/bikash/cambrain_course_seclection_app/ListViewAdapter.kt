@@ -13,13 +13,13 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bikash.cambrain_course_seclection_app.databinding.ListItemBinding
 
 
-class ListViewAdapter(val context: Context, val courseList: CourseList): BaseAdapter(){
+class ListViewAdapter(val context: Context, val courseList: MutableList<Course>): BaseAdapter(){
     override fun getCount(): Int {
-        return courseList.getCourses().size
+        return courseList.size
     }
 
     override fun getItem(position: Int): Any {
-        return courseList.getCourses()[position]
+        return courseList[position]
     }
 
     override fun getItemId(position: Int): Long {
