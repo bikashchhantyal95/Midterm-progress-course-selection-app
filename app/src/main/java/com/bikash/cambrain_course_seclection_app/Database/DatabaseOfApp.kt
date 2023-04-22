@@ -16,12 +16,15 @@ abstract class DatabaseOfApp: RoomDatabase() {
        private var INSTANCE : DatabaseOfApp? = null
 
 
+       // create a method to get instance of the database
        fun getDatabase(context: Context): DatabaseOfApp{
+           //get the current instance if exists
            val tempInstance = INSTANCE
 
            if(tempInstance != null){
                return tempInstance
            }
+           //create new instance if it does not exists
            synchronized(this){
                val instance  = Room.databaseBuilder(
                    context.applicationContext,

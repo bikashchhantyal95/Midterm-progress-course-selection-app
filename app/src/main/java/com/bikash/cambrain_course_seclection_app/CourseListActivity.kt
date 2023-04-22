@@ -28,8 +28,5 @@ class CourseListActivity : AppCompatActivity() {
             binding.listCourses.adapter = adapter
 
         })
-//        val courses = databaseOfApp.courseDao().getAll()
-//        val adapter = ListViewAdapter(this, courses)
-//        binding.listCourses.adapter = adapter
     }
 }

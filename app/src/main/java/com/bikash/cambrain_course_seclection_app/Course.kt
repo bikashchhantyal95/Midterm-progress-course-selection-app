@@ -6,7 +6,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import org.jetbrains.annotations.NonNls
 
-@Entity(tableName = "Course")
+@Entity(tableName = "Course") // create table
 data class Course(
     @PrimaryKey(autoGenerate = true) val id:Int?,
     @NonNull @ColumnInfo(name = "code") val code: String,
