@@ -21,6 +21,8 @@
         android:layout_marginBottom="8dp"
         android:hint="Enter Name"
         android:inputType="textPersonName"
+        android:background="@drawable/custom_border_radius"
+        android:paddingLeft="15dp"
         android:minHeight="48dp" />
 
     <EditText
@@ -30,6 +32,8 @@
         android:layout_marginBottom="8dp"
         android:hint="Email"
         android:inputType="textEmailAddress"
+        android:background="@drawable/custom_border_radius"
+        android:paddingLeft="15dp"
         android:minHeight="48dp" />
 
     <EditText
@@ -39,6 +43,8 @@
         android:layout_marginBottom="16dp"
         android:hint="Program"
         android:inputType="text"
+        android:background="@drawable/custom_border_radius"
+        android:paddingLeft="15dp"
         android:minHeight="48dp" />
 
     <Button

@@ -36,7 +36,10 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:minHeight="48dp"
+        android:paddingLeft="15dp"
+        android:background="@drawable/custom_border_radius"
         android:hint="Enter Course Name"
+
         tools:ignore="LabelFor" />
 
     <!--    Course Code Label-->
@@ -55,7 +58,10 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:hint="Enter course code" />
+        android:hint="Enter course code"
+        android:paddingLeft="15dp"
+        android:background="@drawable/custom_border_radius"
+        />
 
     <!--    Course Description Label-->
     <TextView
@@ -72,6 +78,8 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:paddingLeft="15dp"
+        android:background="@drawable/custom_border_radius"
         android:hint="Enter description" />
     <!--    Course Assigned professor Name-->
     <TextView
@@ -91,13 +99,18 @@
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:hint="Enter professor name"
+        android:paddingLeft="15dp"
+        android:background="@drawable/custom_border_radius"
+        style="@style/CustomTextFieldStyle"
         tools:ignore="LabelFor" />
 
     <!--    Add Button-->
     <Button
         android:id="@+id/addCourseButton"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:text="Add Course" />
 
 </LinearLayout>
