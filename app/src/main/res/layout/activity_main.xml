@@ -62,9 +62,12 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp" />
 
+<!--    layout for buttons-->
     <LinearLayout
         android:layout_height="wrap_content"
         android:layout_width="wrap_content">
+
+<!--    Create button    -->
         <Button
             android:id="@+id/btn_create_course"
             android:text="Create Course"
@@ -72,15 +75,18 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:layout_marginRight="45dp"/>
+
+<!--        Course List Button-->
         <Button
             android:id="@+id/btn_add_course"
-            android:text="@string/add_course_btn"
+            android:text="Course List"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp" />
     </LinearLayout>
 
 
+<!--    show course list button-->
     <ListView
         android:id="@+id/user_selected_course_list"
         android:layout_width="match_parent"

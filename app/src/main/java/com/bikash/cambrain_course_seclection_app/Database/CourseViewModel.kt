@@ -6,7 +6,7 @@ import androidx.lifecycle.LiveData
 
 import com.bikash.cambrain_course_seclection_app.Course
 
-abstract class CourseViewModel(application: Application): AndroidViewModel(application) {
+class CourseViewModel(application: Application): AndroidViewModel(application) {
 
     //list the data in database
      val readAllCourseData : LiveData<List<Course>>
